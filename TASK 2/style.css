@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.sidebar{
+    
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    font-size:17px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    text-align: left;
+    list-style: none;
+    font-size: 15px;
+    padding: 34px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    display: flex;
+    width: 100vw;
+}
+.infoContainer{
+    background-color: #c6e1f7;
+   
+    
+   width: 160vh;
+    height: 395px;
+    margin: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.pic img{
+    width: 200px;
+    margin-top: 74px;
+    height: 250px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    color: black;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+    color: rgb(65, 84, 208);
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.btn{
+    padding: 9px 14px;
+    color: white;
+    background-color:black;
+    font-size: 25x;
+    font-weight: bold;
+    border-radius: 24px;
+    margin: 0 3px;
+    cursor: pointer;
+
+
+}
+.btn-sb{
+    font-size:12px ;
+     padding:6px 19px;
+    margin: 4px 12px;
+    background-color: rgb(25, 25, 180);
+    
+}
+.btn:hover{
+    color: black;
+    background-color:rgb(242, 238, 238);
+}
+.contactForm{
+    margin:32px 0;
+}
+.contactForm h1{
+    text-align: center;
+    color: rgb(44, 44, 135);
+    text-align: center;
+    margin: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contactForm form div{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    margin: 6px 4px;
+
+
+}
+.contactForm form div input{
+    width: 37vh;
+    border-radius: 10px;
+    margin: 8px 5px 6px 6px;
+    padding: 3px;
+    font-size: 15px;
+
+}
+#emailHelp{
+    font-size: 18px;
+    color: black;
+    margin: 0 5px;
+    font-weight: normal;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 28px;
+    margin: 3px 0 12px 10px;
+    padding-left: 12px;
+}
+.form-label{
+    font-size: 20px;
+    font-weight:normal;
+    color: rgb(25, 25, 180);
+    
+}
+.form-check-label{
+    font-size: 21px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+h1{
+    padding: 10px;
+    margin: 23px 0;
+}
+p{
+    font-size: 20px;
+     padding: 5px;
+    margin: 10px 4px 14px 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.technicalContainer{
+    padding: 7px;
+    margin: 8px 1px;
+    font-size: 18px;
+    color: rgb(25, 25, 180);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h1{
+    padding: 12px;
+    margin: 12px 0;
+}
+.skillContainer{
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.cross{
+    margin-left: 94px;
+}.sidebarGo{
+    transform:translate(-443px,0);
+    position: absolute;
+}
+form{
+    padding: 90px;
+    margin: 51px 451px;
+    background-color: rgb(131, 200, 240);
+}
+ form input.form-control{
+    width: 220px;
+    height: 22px;
+    border-radius: 9px;
+}
+ form textarea.form-control{
+    width: 350px;
+    height: 175px;
+    border-radius: 9px;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-bottom:8px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
